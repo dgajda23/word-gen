@@ -11,7 +11,7 @@ await fetch("/word", {
     })
 (This is also included in the example.js file)
 
-The program will use this word_length value and send a response through an express post method. To access this response the application must use
+To receive data: The program will use this word_length value and send a response through an express post method. To access this response the application must use
 .then as per the standards for using fetch. Here is an example:
 .then(response => response.json())
         .then(data => {
